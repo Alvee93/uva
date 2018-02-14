@@ -1,0 +1,12 @@
+// back to high school physics problem
+#include <iostream>
+
+int main()
+{
+    short int v;
+    unsigned short int t;
+    while(std::cin>>v && std::cin >>t){
+        std::cout<<(v*t*2)<<"\n";
+    }
+    return 0;
+}
