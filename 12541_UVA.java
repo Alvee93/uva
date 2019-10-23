@@ -33,6 +33,6 @@ public class Main {
     }
 
     private static short ageToDays(short dd, short mm, short yyyy) {
-        return (short) (dd+(mm*30)+(yyyy*365));
+        return (short) (dd+(mm*30)+(yyyy*365)); //cast the return value to short type
     }
 }
